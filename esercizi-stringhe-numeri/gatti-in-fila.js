@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var gatti  = 60
+var g_per_fila = 6
+var g_mancanti = gatti%g_per_fila
+console.log('numero di file: ')
+ console.log(Math.ceil(gatti/g_per_fila))
+console.log('gatti mancanti: ')
+ console.log(g_mancanti)
